@@ -18,10 +18,10 @@ send_message:
         text:
           multiline: true
     at_list:
-      name: @ 用户列表
+      name: "@ 用户列表"
       description: 在群聊中要@的用户ID列表（可选）
       required: false
-      example: ["user1", "user2"]
+      example: '["user1", "user2"]'
       selector:
         object:
 
